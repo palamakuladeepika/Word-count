@@ -24,7 +24,7 @@ Run the python program in terminal to get the output.
 Number of words in the txt file is displayed as the output.
 
 ## PROGRAM:
-```
+````
 '''Reference no:21004872
 Developed by :Navya.v'''
 num_words =0
@@ -33,7 +33,7 @@ with open('lines.txt','r') as file1:
          word = i.split()
          num_words += len(word)
 print("Number of words={0}".format(num_words))
-```
+````
 
 ### OUTPUT:
 ![output](./image.png)
